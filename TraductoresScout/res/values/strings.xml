@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Traductores Scout</string>
+    <string name="action_settings">Opciones</string>
+
+    <string-array name="spinner_traductores">
+        <item>Seleccionar Traductor</item>
+        <item>+1</item>
+        <item>-1</item>
+        <item>Agujerito</item>
+        <item>Baden Powell</item>
+        <item>Cenit Polar</item>
+        <item>Gato</item>
+        <item>A Morse</item>
+        <item>Desde Morse</item>     
+        <item>Murcielago</item>
+        <item>Neumatico</item>
+        <item>Romana</item>
+        <item>Semafora</item>
+        <item>Sufamelico</item>
+    </string-array>
+
+    <string name="go_translate">Ir</string>
+    <string name="title_activity_translated">Traducción</string>
+    <string name="share_txt">Compartir</string>
+
+</resources>

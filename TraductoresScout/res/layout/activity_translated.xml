@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".TranslatedActivity" >
+    
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="AD_UNIT_ID"
+        ads:loadAdOnCreate="true" />
+    
+	<ScrollView
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:overScrollMode="always"
+		    android:scrollHorizontally="false"
+		    android:scrollbarStyle="insideOverlay"
+		    android:scrollbars="horizontal|vertical"
+		    android:visibility="visible"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+    		android:paddingRight="@dimen/activity_horizontal_margin" >
+	    <TextView
+	        android:id="@+id/text_translated"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/app_name"
+	        android:textIsSelectable="true"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </ScrollView>
+
+</LinearLayout>

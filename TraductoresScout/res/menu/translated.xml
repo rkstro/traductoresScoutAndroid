@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:rkstro="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/menu_item_share"
+        rkstro:showAsAction="always"
+        android:title="@string/share_txt"
+        rkstro:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+</menu>
